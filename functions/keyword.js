@@ -26,8 +26,6 @@ function getKeyWords(text){
     return real
 }
 
-generateKeyWordsByDescription();
-
 function generateKeyWordsByDescription(){
     var keywords = {};
     var animes_already_done = []
