@@ -11,6 +11,7 @@ function runPythonScript(file, arguments = []) {
         });
 
         python.stdout.on('data', (data) => {
+            console.log(data.toString());
             output.push(data.toString());
         });
 
